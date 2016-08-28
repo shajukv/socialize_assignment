@@ -1,0 +1,18 @@
+<a href="" ng-click="logout()" class="login_link">Logout</a>
+<div class="container">
+    <div id="left"><img src="http://192.185.183.189/~webapplication/assets/images/right-bg.jpg" alt="" /></div>
+    <div id="right">
+      <div id="top-img"><img src="http://192.185.183.189/~webapplication/assets/images/galery-hd.png" alt="" /></div>
+      <div id="galery-hd">
+        <input id="Se" name="a" type="search" placeholder="Search: Name/Contestant no."  ng-model="searchTerm" ng-change="searchImages()">
+        <div class="clear"></div>
+        <div class="galleryA" ng-repeat="image in getImages(6) track by $index"> <span class="like">{{ image.likes }} likes <br />
+                <a href="" id="hearts" >&hearts;</a></span> <span> <img src="{{image.dish_image}}" alt="{{image.dish_name}}" width="159" height="128" class="thumb-image"/>  
+ </span></div>
+          
+      </div>
+      <div class="fromA">
+        <input id="Sub" name="a" type="submit" value="">
+      </div>
+    </div>
+  </div>

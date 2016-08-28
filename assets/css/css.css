@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+*{ border:0px; padding:0px; margin:0px;}
+
+.clear{ clear:both;}
+
+body{ font-family:Arial, Helvetica, sans-serif;}
+
+.wrapper{ width:810px; margin:0px auto;}
+
+.container{ width:100%}
+
+
+
+
+
+/* CSS for login page  */
+
+.containerA{ width:810px; background:url(../images/login-bg.png) no-repeat left top; height:645px;}
+
+#login-from{ width:340px; padding:10px; padding-left:20px; background-color:#ffe450; top:460px; position:relative;}
+
+.login-fromA label{font-size:14px; color:#000; font-weight:bold;}
+
+.login-fromA input{width:264px; height:30px; line-height:30px; background-color:#fff;border-bottom:1px dotted }
+
+.login-fromA{ padding-bottom:5px}
+
+.login-fromA #subA{background:url(../images/ent.png) no-repeat right top; text-indent:-9999; width:73px; height:38px; float:right; border:0 }
+
+
+
+
+
+/* CSS for Registration page  */
+
+
+
+#left{ width:346px; float:left}
+
+#right{ width:464px; float:right; background:url(../images/leftt-bg.jpg) no-repeat left top; height:645px;}
+
+#top-img{ text-align:center; padding:20px 0;}
+
+.fromA{ padding-left:70px; padding-bottom:1px;}
+
+.fromA label{ display:block; font-size:12px; color:#333; line-height:18px;}
+
+.fromA label span{ color:#F00;}
+
+.fromA input{ background-color:#ffe450; padding:4px; width:320px;}
+
+.fromA #B{ border-bottom:1px dotted }
+
+.fromA select{ background-color:#ffe450; padding:4px; width:328px;}
+
+.fromA #C{ border-bottom:1px dotted; width:80px }
+
+.fromA #D{ width:30px;}
+.fromA #terms{ width:30px;}
+
+.fromB{ font-size:12px; color:#333;}
+
+#Sub{background:url(../images/sub.png) no-repeat right top; text-indent:-9999; width:157px; height:38px; float:right;display:block;}
+
+footer p { text-align:left;}
+
+footer p a{ font-size:12px; line-height:30px; color:#000; text-decoration:none; display:inline-block; padding:0 20px 0 0}
+
+
+
+/* CSS for galery page  */
+
+#galery-hd{ padding:10px;}
+
+#galery-hd a{}
+
+#galery-hd #Se{ display:inline-block; float:right; background-color:#ffe345; margin-right:26px; margin-bottom:10px; height:24px; line-height:24px; padding:0px 5px; color:#666; width:200px}
+
+.galleryA{ float:left; margin-right:}
+
+.galleryA span{ display:inline-block;  font-size:12px; font-weight:bold;}
+
+.galleryA #hearts{ background-color:#d2302c; width:32px; height:20px; line-height:20px; color:#FFF; font-size:18px; font-weight:bold; display:block; text-decoration:none; padding:0px 10px}
+
+.like{ position: relative;
+
+    right: -6px;
+
+    top: -57px;}
+
+ /* CSS for Alert Message  */
+
+
+
+.alert-box {
+    color:#555;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+    padding:10px 10px 10px 36px;
+    margin:10px;
+}
+.alert-box span {
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.success {
+    background:#e9ffd9 url('../images/success.png') no-repeat 10px 50%;
+    border:1px solid #a6ca8a;
+}
+.error {
+    background:#ffecec url('../images/error.png') no-repeat 10px 50%;
+    border:1px solid #f5aca6;
+}
+
+
+.login_link{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #DE2E22;
+    color: #FFF;
+    padding: 8px 12px;
+    text-decoration: none;
+}

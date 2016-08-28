@@ -1,0 +1,25 @@
+[20-Aug-2016 03:05:48 America/Chicago] PHP Fatal error:  Call to a member function registration() on a non-object in /home/webapplication/public_html/application/controllers/Registration.php on line 36
+[20-Aug-2016 10:35:45 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/webapplication/public_html/application/controllers/Registration.php on line 24
+[20-Aug-2016 13:59:08 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/webapplication/public_html/application/controllers/Registration.php on line 43
+[20-Aug-2016 13:59:43 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/webapplication/public_html/application/controllers/Registration.php on line 43
+[20-Aug-2016 14:00:19 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/webapplication/public_html/application/controllers/Registration.php on line 43
+[20-Aug-2016 14:02:42 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/webapplication/public_html/application/controllers/Registration.php on line 43
+[20-Aug-2016 14:02:46 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/webapplication/public_html/application/controllers/Registration.php on line 43
+[20-Aug-2016 14:02:51 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/webapplication/public_html/application/controllers/Registration.php on line 43
+[20-Aug-2016 14:02:54 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/webapplication/public_html/application/controllers/Registration.php on line 43
+[20-Aug-2016 14:03:16 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/webapplication/public_html/application/controllers/Registration.php on line 43
+[20-Aug-2016 14:03:24 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/webapplication/public_html/application/controllers/Registration.php on line 43
+[23-Aug-2016 13:15:38 America/Chicago] PHP Parse error:  syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING) in /home/webapplication/public_html/application/config/routes.php on line 64
+[24-Aug-2016 09:17:17 America/Chicago] PHP Fatal error:  Call to a member function validate_token() on a non-object in /home/webapplication/public_html/application/controllers/Gallerypage.php on line 47
+[24-Aug-2016 09:18:11 America/Chicago] PHP Fatal error:  Call to undefined method Registration_model::validate_token() in /home/webapplication/public_html/application/controllers/Gallerypage.php on line 49
+[24-Aug-2016 09:39:07 America/Chicago] PHP Fatal error:  Call to undefined function result_array() in /home/webapplication/public_html/application/models/Gallerypage_model.php on line 20
+[24-Aug-2016 09:39:23 America/Chicago] PHP Fatal error:  Function name must be a string in /home/webapplication/public_html/application/models/Gallerypage_model.php on line 20
+[24-Aug-2016 09:53:53 America/Chicago] PHP Fatal error:  Function name must be a string in /home/webapplication/public_html/application/models/Gallerypage_model.php on line 20
+[26-Aug-2016 10:56:26 America/Chicago] PHP Fatal error:  Call to a member function validate_token() on a non-object in /home/webapplication/public_html/application/controllers/Login.php on line 50
+[26-Aug-2016 11:01:07 America/Chicago] PHP Fatal error:  Call to a member function validate_token() on a non-object in /home/webapplication/public_html/application/controllers/Login.php on line 50
+[26-Aug-2016 11:02:20 America/Chicago] PHP Fatal error:  Call to a member function validate_token() on a non-object in /home/webapplication/public_html/application/controllers/Login.php on line 50
+[26-Aug-2016 11:05:33 America/Chicago] PHP Fatal error:  Call to a member function validate_token() on a non-object in /home/webapplication/public_html/application/controllers/Login.php on line 49
+[26-Aug-2016 14:47:11 America/Chicago] PHP Fatal error:  Call to a member function update_token() on a non-object in /home/webapplication/public_html/application/controllers/Login.php on line 57
+[26-Aug-2016 14:52:17 America/Chicago] PHP Fatal error:  Call to a member function update_token() on a non-object in /home/webapplication/public_html/application/controllers/Login.php on line 57
+[26-Aug-2016 14:52:39 America/Chicago] PHP Fatal error:  Call to a member function update_token() on a non-object in /home/webapplication/public_html/application/controllers/Login.php on line 57
+[26-Aug-2016 14:52:43 America/Chicago] PHP Fatal error:  Call to a member function update_token() on a non-object in /home/webapplication/public_html/application/controllers/Login.php on line 57

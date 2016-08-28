@@ -1,0 +1,30 @@
+
+<div class="containerA">
+  <form name="loginForm" no-validate ng-submit="onFormSubmit()">
+    <div id="login-from">
+      <div class="login-fromA">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" ng-model="user.username" placeholder="Email" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"  required>
+       
+
+<p ng-show="loginForm.username.$invalid && !loginForm.username.$pristine" class="error-block">This field is required</p>
+
+      </div>
+      <div class="login-fromA">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" required placeholder="Password" ng-model="user.password">
+        <p ng-show="loginForm.password.$invalid && !loginForm.password.$pristine" class="error-block">This field is required</p>
+
+      </div>
+    
+      <div class="login-fromA">
+<br/><a class="login_link" href="#/registration">REGISTER</a>
+        <input id="subA" name="submit" type="submit" value="">
+<div class="alert-box error"   ng-show="loginStatus != null"><span>error: </span>{{ loginStatus }}</div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </form>
+</div>
+
+

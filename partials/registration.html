@@ -1,0 +1,75 @@
+<a class="login_link" href="#/login">Login</a>
+ <div class="container">
+<div class="alert-box success"   ng-show="registerStatus != null"><span>success: </span>{{ registerStatus }}</div>
+    <div id="left"><img src="http://192.185.183.189/~webapplication/assets/images/right-bg.jpg" alt="" /></div>
+    <div id="right">
+      <div id="top-img"><img src="http://192.185.183.189/~webapplication/assets/images/top-img.png" alt="" /></div>
+
+      <form name="userForm" id="userForm" no-validate ng-submit="onFormSubmit()">
+
+      <div class="fromA">
+        <label for="dishUpload">Upload photo of your dish<span>*</span></label>
+       <input id="dishUpload" name="dishUpload" type="file" file-model = "myFile" required>
+        <p ng-show="userForm.dishUpload.$invalid && !userForm.dishUpload.$pristine" class="error-block" ng-model="imageFile">This field is required</p>
+
+      </div>
+      <div class="fromA">
+        <label for="dishName">Name of your dish<span>*</span></label>
+        <input id="dishName" name="dishName" type="text" required ng-model="data.dishName">
+        <p ng-show="userForm.dishName.$invalid && !userForm.dishName.$pristine" class="error-block">This field is required</p>
+      </div>
+      <div class="fromA">
+        <label for="why">Why is this dish special to you?<span>*</span></label>
+        <input id="why" name="why" type="text" required ng-model="data.why">
+        <p ng-show="userForm.why.$invalid && !userForm.why.$pristine" class="error-block">This field is required</p>
+      </div>
+      <div class="fromA">
+        <label for="name">Name<span>*</span></label>
+        <input id="name" name="name" type="text" required ng-model="data.name">
+        <p ng-show="userForm.name.$invalid && !userForm.name.$pristine" class="error-block">This field is required</p>
+      </div>
+      <div class="fromA">
+        <label for="email">Email<span>*</span></label>
+        <input id="email" name="email" type="email" required ng-model="data.email">
+        <p ng-show="userForm.email.$invalid && !userForm.email.$pristine" class="error-block">This field is required</p>
+      </div>
+      <div class="fromA">
+        <label for="tel">Phone Number<span>*</span></label>
+        <input id="tel" name="tel" type="tel" required ng-model="data.tel">
+        <p ng-show="userForm.tel.$invalid && !userForm.tel.$pristine" class="error-block">This field is required</p>
+      </div>
+      <div class="fromA">
+        <label for="country">Country<span>*</span></label>
+        <select name="country" required ng-model="data.country">
+          <option value=""></option>
+          <option value="Afganistan">Afghanistan</option>
+          <option value="Albania">Albania</option>
+          <option value="Algeria">Algeria</option>
+          <option value="American Samoa">American Samoa</option>
+          <option value="Andorra">Andorra</option>
+          <option value="Angola">Angola</option>
+        </select>
+        <p ng-show="userForm.country.$invalid && !userForm.country.$pristine" class="error-block">This field is required</p>
+      </div>
+      <div class="fromA fromB">
+        <label for="age">Age<span>*</span></label>
+        <input id="age" name="age" type="tel" required ng-model="data.age">
+        <p ng-show="userForm.age.$invalid && !userForm.age.$pristine" class="error-block">This field is required</p>
+        </div> <div class="fromA fromB"><br />
+        <input id="D" name="a" type="radio" ng-model="data.male">
+        Male
+        <input id="D" name="a" type="radio" ng-model="data.female">
+        Female </div>
+      <div class="fromA fromB" > <br />
+        <input id="terms" name="terms" type="checkbox" required ng-model="data.terms" >I agree to Terms and Conditions
+        <p ng-show="userForm.terms.$invalid && !userForm.terms.$pristine" class="error-block">This field is required</p>
+         </div>
+      <div class="fromA">
+        <input id="Sub" name="submit" type="submit" value="">
+      </div>
+      </form>
+    </div>
+    
+
+
+  </div>
